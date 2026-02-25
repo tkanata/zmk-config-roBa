@@ -87,10 +87,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E      &kp R                &kp T                                             &kp Y     &kp U  &lt 5 I    &kp O    &kp P
-&lt 5 A           &kp S         &kp D      &kp F                &kp G             &mkp LCLK        &kp MINUS      &kp H     &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C      &kp V                &kp B             &lt 6 COLON      &lt 1 SEMI     &kp N     &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp EQUAL  &lt_to_layer_0 3 GT  &kp LEFT_COMMAND  &kp SPACE        &kp LG(SPACE)  &lt 2 AT                             &kp LS(LG(N5))
+&kp Q             &kp W         &kp E      &kp R                &kp T                                             &kp Y               &kp U  &lt 5 I    &kp O    &kp P
+&lt 5 A           &kp S         &kp D      &kp F                &kp G             &mkp LCLK        &kp MINUS      &kp H               &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C      &kp V                &kp B             &lt 6 COLON      &lt 1 AT       &kp N               &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp TAB           &kp LEFT_ALT  &kp EQUAL  &lt_to_layer_0 3 GT  &kp LEFT_COMMAND  &kp SPACE        &kp LG(SPACE)  &lt 2 LEFT_CONTROL                             &kp LS(LG(N5))
             >;
 
             sensor-bindings =
@@ -111,7 +111,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp QUESTION       &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp DELETE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
             >;
         };
