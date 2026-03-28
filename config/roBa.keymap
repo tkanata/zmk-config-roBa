@@ -87,10 +87,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W      &kp E         &kp R         &kp T                                                          &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S      &kp D         &kp F         &kp G      &mkp LCLK               &kp GRAVE                   &kp H      &kp J  &kp K      &kp L    &lt 2 MINUS
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V         &kp B      &lt 6 MINUS             &lt 1 AT                    &kp N      &kp M  &kp COMMA  &kp DOT  &mt COLON SLASH
-&kp TAB           &kp EQUAL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE  &lt 3 GREATER_THAN      &mt LEFT_CONTROL LG(SPACE)  &kp ENTER                             &kp LS(LG(NUMBER_4))
+&kp Q             &kp W      &kp E         &kp R         &kp T                                                            &kp Y      &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S      &kp D         &kp F         &kp G        &mkp LCLK               &kp GRAVE                   &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V         &kp B        &lt 6 SQT               &lt 1 AT                    &kp N      &kp M  &kp COMMA  &kp DOT  &mt COLON SLASH
+&kp TAB           &kp EQUAL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &lt 3 GREATER_THAN      &mt LEFT_CONTROL LG(SPACE)  &kp ENTER                             &kp LS(LG(NUMBER_4))
             >;
 
             sensor-bindings =
@@ -109,7 +109,7 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp COLON       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp QUESTION       &kp HASH        &kp DOLLAR            &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp DELETE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
